@@ -16,8 +16,7 @@ function ItemListContainer({ greeting }) {
        <div className='col-md-3'><Album /></div> 
        <div className='col-md-3'><Album /></div>  
        <div className='col-md-3'><Album /></div>
-       
-      </div>bsdflGFBWKB
+      </div>
     </div>
   );
 }
