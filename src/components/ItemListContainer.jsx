@@ -1,13 +1,27 @@
 import React from 'react';
+import NavBar from "./NavBar.jsx";
+import Album from "./Album.jsx";
+import Footer from "./Footer";
 
-const ItemListContainer = ({ greeting }) => {
+function ItemListContainer({ greeting }) {
   return (
-    <div className="container">
+    <div>
       <h1>{greeting}</h1>
-      <p>Contenido randommmmmmmm...</p>
+      <div className='row' style={{ display: 'flex', justifyContent: 'center' }}>
+       <div className='col-md-3'><Album /></div> 
+       <div className='col-md-3'><Album /></div> 
+       <div className='col-md-3'><Album /></div> 
+       <div className='col-md-3'><Album /></div> 
+       <div className='col-md-3'><Album /></div> 
+       <div className='col-md-3'><Album /></div> 
+       <div className='col-md-3'><Album /></div>  
+       <div className='col-md-3'><Album /></div>
+       
+      </div>
     </div>
   );
 }
 
 export default ItemListContainer;
+
 

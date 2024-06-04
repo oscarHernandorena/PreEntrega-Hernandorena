@@ -1,1 +1,21 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+.cart-notification {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 0.8em;
+
+    color: grey !important;
+}

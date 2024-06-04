@@ -20,8 +20,8 @@ const NavBar = () => {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <a className="nav-link" href="#">
-              <FontAwesomeIcon icon={faShoppingCart} />
-              <span className="badge badge-pill badge-danger cart-notification">8</span>
+              <CartWidget />
+              
             </a>
           </li>
         </ul>

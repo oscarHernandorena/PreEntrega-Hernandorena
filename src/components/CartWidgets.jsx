@@ -1,10 +1,11 @@
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 const CartWidget = () => {
   return (
     <div>
-      <i className="fas fa-shopping-cart"></i>
-      <span className="badge badge-primary">4</span>
+      <FontAwesomeIcon icon={faShoppingCart} />
+      <span className="badge rounded-pill text-bg-secondary cart-notification">8</span>
     </div>
   );
 };
